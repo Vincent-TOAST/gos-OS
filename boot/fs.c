@@ -32,5 +32,10 @@ int fs_create(const char* path, uint32_t size) {
     return 0;
 }
 
+int fs_load(const char* path, void* buffer) {
+    print_colored("fs_load called, but not yet implemented.\n", 0x04);
+    return 0; 
+}
+
 void fs_init() {
 }

@@ -1,4 +1,3 @@
-
 [bits 32]
 
 section .multiboot
@@ -20,7 +19,7 @@ _start:
     stosd
     mov eax, 0x07204720    ; "G "
     stosd
-    mov eax, 0x07204D59    ; "MY"
+    mov eax, 0x07204D59    ; "gos"
     stosd
     mov eax, 0x0720534F    ; "OS"
     stosd
@@ -33,3 +32,4 @@ _start:
 .halt:
     hlt
     jmp .halt
+

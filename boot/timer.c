@@ -26,3 +26,6 @@ void timer_init() {
     outb(0x40, divisor & 0xFF);
     outb(0x40, (divisor >> 8) & 0xFF);
 }
+
+void timer_handler() {
+}

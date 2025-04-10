@@ -93,3 +93,5 @@ void print_dec(uint32_t value) {
 void print_string(const char* str) {
     print_colored(str, 0x04);  
 }
+
+
